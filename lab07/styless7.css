@@ -1,26 +1,59 @@
 p {
-    color:#efefef;
-    background-color:#DFF6FF;
+    color:#06283D;
+    background-color:#FFE7CC;
+    
    
 }
 body {
-    background-color:#752222;
+    background-color:#FFFFFF;
     color:#EFEFEF;
     
 
 }
-h1 {
-    padding: 60px;
-    background-color:#bb71ca; 
+h1, h2 {
+    padding: 5px;
+    background-color:#D0C9C0;
+
+
 }
+a:link{
+    color:#000000;
 
+}
+a:visited{
+    color:#B20600;
+}
 nav a {
-    color: #531f2e;
-
+    color:#06113C;
+    background-color: #C9BBCF;
   }
 nav {
+    color:#E8DFCA;
 
 }
+.blue {
+    color: blue;
+
+}
+.Yellow{
+    color:#000000;
+}
+.evenrow {
+    color:#000000;
+    background-color: #7A86B6;
+
+}
+.Green {
+    color:#000000;
 
 
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+
+}
+.Burble{
+    border: 2px solid #755d5d
+    marging 20px
+}
 
