@@ -1,0 +1,25 @@
+p {
+    color:#D07000
+    background-color#293462;
+
+
+}
+/*Chaneg color to vissited link*/
+
+a:visited {
+    color: #45f542;
+}
+a:hover{
+    color:#b942f5;
+}
+
+body {
+    background-color: #0000;
+    background-image: url("../imaages/pumking.png");
+    background-repeat: no-repeat;
+
+}
+.second {
+    border: 2px solid #f54242
+    marging 20px
+}

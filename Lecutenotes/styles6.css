@@ -1,0 +1,13 @@
+p {
+    color: #e6f542;
+    background-color:#583461 
+
+}
+body {
+    background-color:#583461;
+    background-image: url("../imaages/pumking.png");
+    background-repeat:repeat;
+    border: 3px solid #f5425d;
+    margin: 25px;
+}
+

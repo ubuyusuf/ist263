@@ -1,0 +1,42 @@
+<style>
+            
+p {
+
+    color:blue;
+    font-family:Arial, Helvetica, Sans-serif:
+    font-size:1.5em: /"1.5em means 150%"/
+    font-weight:900;
+    /"group elemt selceters"/
+
+}
+/"decendant selecters pick an elemtn inside another element"/
+p {
+    color: orange
+}
+#firstbulet {
+    color:crimson
+
+ } /"you need bound sign before sigining an id"/
+.pinktext{
+    color:pink
+}
+
+
+
+<link rel=sylesheet" href="weeksheetsyle.css">
+
+
+body
+<p>Link sytel are cool>
+
+
+
+
+
+
+
+
+
+
+
+
