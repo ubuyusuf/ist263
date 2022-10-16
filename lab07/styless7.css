@@ -1,5 +1,5 @@
 p {
-    color:#06283D;
+    color:#000000;
     background-color:#FFE7CC;
     
    
@@ -11,6 +11,7 @@ body {
 
 }
 h1, h2 {
+    color: #000000;
     padding: 5px;
     background-color:#D0C9C0;
 
@@ -22,6 +23,9 @@ a:link{
 }
 a:visited{
     color:#B20600;
+}
+a:hover {
+    background-color:hsl(45, 100%, 65%);
 }
 nav a {
     color:#06113C;
@@ -56,4 +60,3 @@ tr:nth-child(even) {
     border: 2px solid #755d5d
     marging 20px
 }
-
