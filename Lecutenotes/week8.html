@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8 float</title>
+    <style>
+        img {width: 200px
+            float
+            margin: 0px 20px; /*this puts space and text between images*/
+    
+         }
+         .margincontainer{margin: 30px;
+         }
+       
+        .clearfloat{
+            clear: both;
+        }/*this is the clear for the image float*/
+        .firstimages {
+            position: relative;/*position imges maintaines the float of the normal documents, positions acourding to top and left from there*/
+            top: 2em;
+            left: 3em;
+        }
+        .secondimages{
+            position: absolute;/*takes element out of document flow and position acording to container*/
+            top:2em;
+        }
+        .thirdimages{
+            position: fixed; /*takes element out of documentflow and position according to viewpoint*/
+            bottom: 10em;
+            right: 5em;
+        }
+    </style>
+</head>
+<body>
+    <div class ="margincontainer"> <!--this div tag is a container for the page so I can add a magine the whole page -->
+        <img class = "fistimages" src= "../imaages/redrose.jpeg" class="firstimages">
+        <!--The floating starts where the element occurs in the document -->
+        <h1>First Header</h1>
+        <p>First Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <a href= "https://www.google.com" class= "mylink" Rose></a>Odio, voluptates cum reprehenderit aperiam enim et dicta, 
+        beatae ut quis nisi quaerat totam odit veritatis nam ullam, molestias cupiditate quam exercitationem?  <p>Third Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores ea 
+        cumque similique asperiores sequi vero quasi quos tempora?
+        Magni veniam non sapiente vel voluptates quae ipsum dolore.
+        Reprehenderit, tempore?Third Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores ea 
+        cumque similique asperiores sequi vero quasi quos tempora?
+        Magni veniam non sapiente vel voluptates quae ipsum dolore.
+        Reprehenderit, tempore?Third Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores ea 
+        cumque similique asperiores sequi vero quasi quos tempora?
+        Magni veniam non sapiente vel voluptates quae ipsum dolore.
+        Reprehenderit, tempore?</p>
+        
+        <div class = "clearfloat"></div>
+        <!--This div tag contains nothing it is only purpose is to stope the float-->
+        
+
+        <h1>Second Heading</h1>
+        <img src="../imaages/Landsc.jpeg" class = "secondimage">
+        <!--This image floates after the second heading-->
+        <p>Second Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae,
+            qui consequuntur! Corporis repellendus aliquam sequi consequuntur distinctio totam explicabo!
+            Eius suscipit doloribus fugiat sed debitis saepe voluptates soluta eum laudantium?
+        </p>
+
+            
+        <div class = "clearfloat"></div> 
+
+        <h1>Third Head</h1>
+        <img src="../imaages/himilaya.jpeg" class="thirdimage">
+        <p>Third Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, maiores ea 
+            cumque similique asperiores sequi vero quasi quos tempora?
+            Magni veniam non sapiente vel voluptates quae ipsum dolore.
+            Reprehenderit, tempore?</p>
+
+    </div>
+
+ 
+</body>
+</html>
