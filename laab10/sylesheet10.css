@@ -1,107 +1,38 @@
-nav{
-    color:chocolate
-    display flex;
-    padding: 40px;
-    margin-bottom: 30px;
-    background-color: lightblue;
-    width: 100%;
-    
 
 
+img{
+    max-width: 700;
+    initial-letter: 100;
 }
 
-nav a {
-    color:darkblue;
-    font-size: large;
-
-}
-:hover{
-    color:purple;
-}
-:focus{
-    color: darkorange;
-}
-h1{
-    font-size: 3pc;
-    color:darkslateblue;
-    text-align:center;
-}
-
-
-.skill{
-    color:black;
-    margin: 0px;
-    text-align:justify;
-    text-justify:auto;
-    text-align:center;
-}
-  
-  
-.fa-brands{
-    
-    font-size: 10pt;
-    color:black;
-    margin: 0 auto;
-    border: 1px solid transparent;
-    margin-right: 10px;
-    margin-bottom: 1px;
-    text-align: center;
-    float:unset;
-    display:flow-root;  
-  
-}
-
-
-.center{
-    text-align: center;
-    display: inline;
-    text-align:justify;
-
-}
-.ceter{
-    background-color:#AEBDCA;
-	width: 200px;
-	height: 200px;
-	padding: 50px;
-	border: 10px solid black;
-	margin: 10px;
-    display:block;
-    margin-right: auto;
-    float: right;
+@mega only screen and (max-width:600px){
+    body{font: size 55px;}
+    nav a {max-width:100%
+        padding:10px
+        display:block;
+        flex-direction:row;
+        justify-content:space-around;
     
     
-
-
-}
-.part2{
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-
-
-}
-.linkd_email{
-    flex-wrap: wrap;
-
-}
-.green{
-    flex-wrap: wrap;
-}
-@media only screen and  (max-width: 600px){
-    body
-    .navv{
-        display:inline;
-        
-
-        
     }
 
+
 }
-span{
-    color: #54d174;
+@media only screen and (min-width:0px){
+.navv{flex-direction: column;
+    padding: 35%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
-#toggle{
-    display: none;
+
+
+    
 }
 
+@media only screen and (max-width:599px) {
+    span{display: none;}
+
+}
