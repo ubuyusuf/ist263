@@ -20,7 +20,7 @@ img{
 }
 @media only screen and (min-width:0px){
 .navv{flex-direction: column;
-    padding: 35%;
+    padding: 100%;
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +41,7 @@ nav{
     color:chocolate
     display flex;
     padding: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     background-color: lightblue
 
 }
