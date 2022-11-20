@@ -1,0 +1,195 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:"Roboto", san-serif;
+    text-decoration: none;
+    box-sizing:border-box;
+    
+}
+/*It means apply those styles to all elements.*/
+.container{
+    
+    margin:0;
+    padding:0;
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:left;
+    padding-left:4%;
+    padding-right:4%;
+    box-sizing:border-box;
+    background-origin: border-box;
+
+
+    
+}
+
+/*.narbar{
+    height: 12%;
+    display:flex;
+    align-items:center;
+}*/
+.img1{
+    max-width: 80%;
+    height:400px; 
+    float:right;
+    padding:10px;
+    margin-bottom: auto;
+
+
+}
+
+nav{
+    float:right;
+    line-height:60px;
+    color: aliceblue;
+}
+
+nav a{
+    text-decoration:none;
+    font-family:bignoodletitling;
+    letter-spacing: 2px;
+    font-size:15px;
+    margin:6px;
+    color:aliceblue;
+    
+    
+    
+    
+    
+ 
+    
+}
+/*
+nav ul li {
+    list-style:none;
+    display:inline-block;
+    margin-left:30px;
+}
+
+
+nav ul li a {
+  
+    color:black; 
+    font-size:12px;
+    text-decoration:none;
+
+
+
+}  */
+
+
+    
+   
+
+h1{
+    font-family: arial, "Time New Roman";
+    font-size:30px;
+    font-style: italic;
+    font-weight: 100;
+    text-align:left;
+    text-decoration:solid;
+    text-indent: 20px;
+    text-transform:uppercase;
+    color:#000;
+
+
+}
+.myname{
+    font-size: 20px;
+    padding-left:1%;
+    padding-right:1%;
+    padding: 8px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.media{
+    white-space: normal;
+}
+    
+.u{
+    font-family:sans-serif;
+    color:aliceblue;
+    font-style:italic;
+    font-size: 40px;
+    margin: auto;
+    padding-left:1%;
+    padding-right: 1%;
+
+}
+.homepimage1{
+    width:100%;
+    height:400px;
+    position:;
+    top: 100px;
+    background-image: url("../projectfive/Images/home.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    -webkit-background-size:cover;
+    /*padding-left:4%;
+    padding-right:4%;*/
+    
+}
+.hometext1{
+
+    font-size: 15px;
+    width: 640px;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:;
+    display:block;
+    margin: auto;
+    /*justify-content:center;
+    text-align:center;*/
+    float: left;
+    
+    
+
+    
+
+}
+.h1home{
+    color:#002B5B;
+    font-size:20px;
+    background-color: cornsilk;
+    text-align: left;
+    max-width: fit-content;
+   
+    
+}
+header{
+    height: 100px;
+    background-color:#262626;
+    width:100%;
+    z-index:12;
+    position:fixed;
+
+
+}
+.homeimage2{
+    width:500px;
+    position: relative;
+    box-shadow:0 0 5px rgba(0,0,0,.4);
+    overflow:hidden;
+    border-radius: 10px;
+    margin-bottom:10px;
+    top:25%;
+    float:right;
+    
+
+  
+
+
+}
+
+.secondhometext2{
+    text-align:right: ;;
+    float:right;
+
+    
+
+    
+}
