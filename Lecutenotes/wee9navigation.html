@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .nav1, .nav2, .nav3,.parentrow, .Socilmedia{
+            display: flex;
+            background-color: #000000;
+            color:#FFFFFF;
+         }
+        .nav1{
+            justify-content: flex-end;      /*all flexbix on end of row*/
+        }
+        .nav2{
+            margin-top: 10px;
+            justify-content: space-around; /*justify content should be on the row*/
+        }
+
+        div{
+            padding:5px;
+        }
+        .parentrow{
+            justify-content: space-between;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="nav1">
+        <div> Home </div>
+        <div> About </div>
+        <div>Products</div>
+        <div> Contact</div>
+    </div>
+
+    <div class="nav2">
+        <div> Home </div>
+        <div> About </div>
+        <div>Products</div>
+        <div> Contact</div>
+    </div>
+    <div calss="parentrow">
+        <div>
+            <div class="nav3">
+                <div> Home </div>
+                <div> About </div>
+                <div>Products</div>
+                <div> Contact</div>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div>
+        <div calss= "Socilmedia" >
+            <div>Facebook</div>
+            <div>Twitter</div>
+        </div>
+
+    </div>
+  
+   
+</body>
+</html>
