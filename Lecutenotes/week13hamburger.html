@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hamburger menue</title>
+    <!--
+        all are these are CSS
+        1. large - no hamburger and small show hamburger
+        2. large no x and small show the x. 
+        3. large the link are sude by side and small the link's are in stack. 
+        4. small - HIDE LINKS
+
+
+
+        Javascript
+        4. On Hamburger click show the liknk
+        5.on X hide the link
+    -->
+    <style>
+        #hamicone{display:none; width:50px}
+        #navlinks a {background-color: yellow;}
+        .myflex{ 
+            display: flex;
+            justify-content: space-between;
+        
+
+        }
+        @media only screen and (max-width:800px){
+            #hamicone{display: block;}
+            #close {display:none}
+            #navlinks a {display: block;} /*this will link since is full width*/
+            #navlinks{display: none;}
+        }
+
+    </style>
+    <script>
+        function showNav (){
+            document.getElementById("navlinks").style.display="block"
+            document.getElementById("close").style.display="block"
+        }
+       
+        
+        function hideNav(){
+            document.getElementById("navlinks").style.display="none"
+            document.getElementById("close").style.display="none"
+        }
+
+    </script>
+</head>
+<body>
+    <div class="myflex">
+        <img src="https://laferger.github.io/ist263/images/hamburger.png" id ="hamicone" onclick="showNav();">
+        <p class="close" onclick="hideNav();">X</p>
+
+    </div>
+    
+    <div id = "navlinks">
+        <a href="index.html">Home</a>
+        <a href="Skills.hmtl">Skills</a>
+        <a href="Contack.html">Contact</a>
+    </div>
+    
+
+</body>
+</html>

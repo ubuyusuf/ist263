@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionpage</title>
+    <style>
+        .red{
+            color:red;
+        }
+        .green{
+            color:green;
+        }
+    </style>
+   <script>
+        function wrongAnswer (){
+            document.getElementById("worng").innerHTML= "<span Class 'red'> True is Incorect .</span>"
+
+        }
+        function rightAnswer (){
+            document.getElementById("right").innerHTML= "<span Class 'red'> True is Incorect .</span>"
+        }
+    </script>
+</head>
+<body>
+    <p>Java and Javascribt are the same thing.</p>
+    <p id = "wrong" onclick="wrongAnswer();">True</p>
+    <p id = "right" onclick="rightAnswer();">False</p>
+
+</body>
+</html>
