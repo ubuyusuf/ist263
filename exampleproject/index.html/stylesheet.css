@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:peru;
+  
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:dimgrey;
+    position:sticky;
+    top:0;
+
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+    
+    
+
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family:century;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 8px 25px;
+    transition:all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: brown;
+    color:darkmagenta;
+    box-shadow: 0 0 10px white;
+}
+/*HOME SECTION*/
+#home{
+    display:flex;
+    flex-direction:column;
+    background-color:rgba(red, green, blue, alpha) ;
+    height: 840px;
+    justify-content: center;
+    color: white;
+
+}
+#home::before{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    background-image: url("images/ubah.png");
+    background-size: auto;
+    height:1000px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+    background-position: left;
+    z-index: -1;
+    opacity: .8;
+
+
+   
+}
+.mianmenue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:30px;
+    right:10%;
+
+
+}
+
+
+
+
+

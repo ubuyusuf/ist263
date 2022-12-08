@@ -1,11 +1,26 @@
 *{
-    margin:0px;
-    padding:0px;
-    font-family:"Roboto", san-serif;
+    margin:0;
+    padding:0;
     text-decoration: none;
     box-sizing:border-box;
+
     
 }
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.125em;
+    background-color: #ededed;
+    color:#000;
+    line-height: 1.6;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
 /*It means apply those styles to all elements.*/
 .container{
     
@@ -23,14 +38,189 @@
 
     
 }
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
-/*.narbar{
-    height: 12%;
-    display:flex;
-    align-items:center;
-}*/
+.html{
+    font-size: 62.5%;
+}
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines{
+    display: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.navbar{
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background-color:white;/*this changes the long line that is between the logo and the nav*/
+    color:crimson;
+    opacity: 0.85;
+    z-index: 100;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.menu-items{
+    order: 2;
+    display: flex;
+}
+.logo{
+    order: 1;
+    font-size: 2.3rem;
+}
+
+.menu-items li{
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.navbar a{
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover{
+    color:#08767a;
+}
+
+@media (max-width: 768px){
+    .navbar{
+        opacity: 0.95;
+    }
+
+    .navbar-container input[type="checkbox"],
+    .navbar-container .hamburger-lines{
+        display: block;
+    }
+
+    .navbar-container{
+        display: block;
+        position: relative;
+        height: 64px;
+    }
+
+    .navbar-container input[type="checkbox"]{
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 30px;
+        top: 20px;
+        left: 20px;
+        z-index: 5;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .navbar-container .hamburger-lines{
+        display: block;
+        height: 28px;
+        width: 35px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .navbar-container .hamburger-lines .line{
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background-color:black;
+    }
+    
+    .navbar-container .hamburger-lines .line1{
+        transform-origin: 0% 0%;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar-container .hamburger-lines .line2{
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .navbar-container .hamburger-lines .line3{
+        transform-origin: 0% 100%;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar .menu-items{
+        padding-top: 100px;
+        background: ;
+        height: 100vh;
+        max-width: 300px;
+        transform: translate(-150%);
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+        padding-left: 40px;
+        transition: transform 0.5s ease-in-out;
+        box-shadow:  5px 0px 10px 0px #aaa;
+        overflow: scroll;
+    }
+
+    .navbar .menu-items li{
+        margin-bottom: 1.8rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .logo{
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 2.5rem;
+    }
+
+    .navbar-container input[type="checkbox"]:checked ~ .menu-items{
+        transform: translateX(0);
+    }
+
+    .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1{
+        transform: rotate(45deg);
+    }
+
+    .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2{
+        transform: scaleY(0);
+    }
+
+    .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3{
+        transform: rotate(-45deg);
+    }
+
+}
+
+@media (max-width: 500px){
+    .navbar-container input[type="checkbox"]:checked ~ .logo{
+        display: none;
+    }
+}
+
 .img1{
-    max-width: 80%;
+    width: 600px;
     height:400px; 
     float:left;
     padding:10px;
@@ -40,47 +230,8 @@
 
 }
 
-nav{
-    float:right;
-    line-height:60px;
-    color: black;
-}
+   
 
-nav a{
-    text-decoration:none;
-    font-family:bignoodletitling;
-    letter-spacing: 2px;
-    font-size:15px;
-    margin:6px;
-    color:black;
-    
-    
-    
-    
-    
- 
-    
-}
-/*
-nav ul li {
-    list-style:none;
-    display:inline-block;
-    margin-left:30px;
-}
-
-
-nav ul li a {
-  
-    color:black; 
-    font-size:12px;
-    text-decoration:none;
-
-
-
-}  */
-
-
-    
    
 
 h1{
@@ -96,21 +247,48 @@ h1{
 
 
 }
-.myname{
 
-    font-size: 20px;
-    width: 540px;
-    padding: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:;
-    display:block;
-    margin:center;
-    justify-content:center;
-    text-align:center;
-    float:left;
-    margin-top:1%;
+.containeer{
+    position: relative;
+    width:100px;
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.containeer, .cardd{
+    position: relative;
+    max-width: ;
+    background: #fff;
+    margin: 10px;
+    padding:15px;
+    display:flex;
 
 }
+.containeer, .cardd,.img11 {
+    max-width:600px;
+    flex:0 0 150px;
+
+}
+
+.text{
+    
+    font-size: 16px;
+    text-align:center;
+    margin: 20px;
+    font-weight:100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200x;
+    padding:px;
+    display: right;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+
+
 .m{
     margin-top:5%;
 }
@@ -119,21 +297,11 @@ h1{
     white-space: normal;
 }
     
-.u{
-    font-family:sans-serif;
-    color:black;
-    font-style:italic;
-    font-size: 25px;
-    margin-bottom: auto;
-    padding-left:1%;
-    padding-right: 1%;
-    margin-bottom: 10px;
 
-}
+
 .homepimage1{
     width:100%;
     height:400px;
-    position:;
     top: 100px;
     background-image: url("../projectfive/Images/home.png");
     background-position:center;
@@ -150,7 +318,7 @@ h1{
     width: 640px;
     padding: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:;
+
     display:block;
     margin: auto;
     justify-content:center;
@@ -179,7 +347,7 @@ header{
     width:100%;
     z-index:12;
     position:fixed;
-    background-color:#B67162;
+    /*background-color:#B67162;*/
     position: relative;
     left:20;
 
@@ -244,54 +412,105 @@ header{
     padding:20px;
 
 }
-.projectpagecolor{
-    background-image:url(../projectfive/Images/photofrom1941ondagalibrary.png);
-    margin-top: auto;
-    width:100%;
-    height: 400px;
-    top:100px;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
     
 
+ 
+
+.footer{
+    padding: 40px 0;
+    background-color: #fff;
 
 }
-.projectstextsinthemiddle{
-    float: right;
-    font-size: 14px;
-    color: darkorange;
-    display:flex;
+.footer, .social {
+    text-align: center;
+    padding-bottom:25px;
+    color: #4b4b4b;
 
 }
-.projectheader{
-    float: left;
-    font-size: 2px;
-    color: #002B5B;
+.footer .social a{
+    font-size:24px;
+    color: inherit;
+    border:1px solid #ccc ;
+    width:40px;
+    height:40px;
+    line-height: 38px;
+    display:inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+   opacity: 0.9;
+}
+.footer ul{
+    margin-top:0;
+    padding:0;
+    list-style:none;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul  li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
 
 }
-.prjoectwrap{
-    width:1170px;
-    margin:0 auto;
+.footer ul li{
+    display:inline-block;
+    padding:0 15px;
 
 }
-.content-areapro{
-    width:100%;
-    position: relative;
-    top:400px;
-    background-color:#ddd ;
-    height: 1300px;
-  
+.footer ul li a:hover{
+    opacity: 1;
+
 }
-.content-areapro h2{
-    font-family: bignoodletitling;
-    letter-spacing:;
-    padding-top:30px;
-    font-size:30px;
-    margin:0;
+.footer .copyright{
+    margin-top:15px;
+    text-align: center;
+    font-size: 13px;
+    color:inherit;
 }
-.content-areapro p{
-    padding:2% 0;
-    font-family: merienda;
-    line-height: 30px;
+
+.heading{
+    font-family:century;
+    font-family: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    position:absolute;
+
+
 }
+
+
+/*sticky footer*/
+#stiky-footer{
+    position: sticky;
+    top:10;
+}
+.quote{
+    font-size: 20px;
+    text-align:center;
+    margin: 20px;
+    font-weight:100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200x;
+    padding:px;
+    color:#000;
+}
+.proimag1{
+    width: 450px;
+    height: 300px;
+    object-fit:cover;
+    background-size:cover;
+    background-position:center;
+
+      
+
+}
+.projectpagecolor{
+    background-color: tomato;
+}
+
