@@ -1,9 +1,18 @@
 
-
 img{
-    max-width: 700px;
-    initial-letter: 100;
+    max-width:100%;
 }
+body{
+    background-color: #8B7E74;
+}
+.image11{
+    float: left;
+    width: 400px;
+    height: 300px;
+    flex:0 0 100px;
+
+}
+
 
 @mega only screen and (max-width:600px){
     body{font: size 55px;}
@@ -38,25 +47,23 @@ img{
 }
 
 nav{
-    color:chocolate
-    display flex;
+   
+
     padding: 40px;
     margin-bottom: 50px;
-    background-color: lightblue
+    text-align: center;
 
 }
 
 
 nav a {
-    color:darkblue;
+  
     font-size: large;
 }
-:hover{
-    color:purple;
-}
+
+
 h1{
     font-size: 3pc;
-    color:darkslateblue;
     text-align:center;
 }
 
@@ -126,4 +133,16 @@ h1{
     
 
 
+}
+h1,h2,p,li,div{
+
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, crossorigin;
+
+
+}
+.article1{
+    margin-top: 10px;
+    padding: 5px;
+    align-items: center;
+    justify-content: baseline;
 }
