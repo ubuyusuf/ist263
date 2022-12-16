@@ -465,6 +465,9 @@ header{
 }
 .social{
     display: flex;
+    justify-content: center;
+    white-space: inherit;
+    text-align: center;
 }
 .footer ul  li a {
     color: inherit;
