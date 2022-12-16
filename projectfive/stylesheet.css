@@ -413,6 +413,7 @@ header{
 .secondtexthomepage{
     font-size: 16px;
     text-align:center;
+    justify-content: center;
     margin: 20px;
     font-weight:100;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -468,6 +469,7 @@ header{
     justify-content: center;
     white-space: inherit;
     text-align: center;
+
 }
 .footer ul  li a {
     color: inherit;
@@ -551,6 +553,25 @@ h1,h2,p,li,div{
 
 
 }
+.head2{
+    text-align: center;
+    font-size: 30px;
+    color:#ffffff;
+    
+
+
+   
+    
+
+}
+
+
+font-size:40px;
+/* background-color:#F7F7F7; */
+text-align:right;
+
+text-align: center;
+
 
 
 
