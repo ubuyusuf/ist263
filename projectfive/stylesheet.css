@@ -9,6 +9,7 @@
 
 img{
     max-width: 100%;
+    min-width:auto;
 
 
 }
@@ -235,12 +236,12 @@ body {
 }
 
 .img1{
-    width: 600px;
-    height:400px; 
+    width: 300px;
+    height:200px; 
     float:left;
     padding:10px;
     margin-bottom: auto;
-    margin-top: 50px;
+    margin-top: 40px;
 
 
 }
@@ -287,7 +288,7 @@ h1{
 }
 
 .text{
-    width: 600px;
+    width: 400px;
     padding: 10px;
     padding-top: 10%;
     /* margin-top: 50px; */
@@ -566,11 +567,6 @@ h1,h2,p,li,div{
 }
 
 
-font-size:40px;
-/* background-color:#F7F7F7; */
-text-align:right;
-
-text-align: center;
 
 
 
