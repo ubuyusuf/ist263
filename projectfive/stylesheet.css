@@ -89,7 +89,8 @@ body {
 }
 .logo{
     order: 1;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
+    font-family: sans-serif;
 }
 
 .menu-items li{
@@ -205,10 +206,8 @@ body {
     }
 
     .logo{
-        position: absolute;
-        top: 10px;
-        right: 15px;
-        font-size: 2.5rem;
+        
+       
     }
 
     .navbar-container input[type="checkbox"]:checked ~ .menu-items{
