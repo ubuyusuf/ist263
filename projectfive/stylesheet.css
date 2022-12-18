@@ -529,7 +529,7 @@ header{
 
 }
 .projectpagecolor{
-    background-color:burlywood
+    background-color:#97633d;
     
 }
 .detail{
@@ -597,7 +597,7 @@ h1,h2,p,li,div{
 }
 .con{
     padding-bottom: 5px;
-    background-color: #f9f9f9;
+    color: #f9f9f9;
     font-family: sans-serif;
 
 }
@@ -610,6 +610,13 @@ h1,h2,p,li,div{
     margin-top: 40px;
 
 } */
+.text2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
 
 
 

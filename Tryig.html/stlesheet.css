@@ -529,11 +529,12 @@ header{
       
 
 }
-/* .projectpagecolor{ */
-    /* background-color:#ccc; */
+.projectpagecolor{
+    background-color:#97633d
    
-    /* max-width: 100%; */
-/* } */
+    max-width:100%; 
+}
+
 .detail{
     font-family:century;
     font-family: 3rem;
