@@ -507,6 +507,7 @@ header{
 #stiky-footer{
     position: sticky;
     top:10;
+   
 }
 .quote{
     font-size: 20px;
@@ -528,10 +529,11 @@ header{
       
 
 }
-.projectpagecolor{
-    background-color:  #97633d;
-    
-}
+/* .projectpagecolor{ */
+    /* background-color:#ccc; */
+   
+    /* max-width: 100%; */
+/* } */
 .detail{
     font-family:century;
     font-family: 3rem;
@@ -555,7 +557,7 @@ h1,h2,p,li,div{
 .head2{
     text-align: center;
     font-size: 30px;
-    color:#ffffff; 
+    color:#ffffff  
 
 }
 .imgpro1{
@@ -608,9 +610,5 @@ h1,h2,p,li,div{
     margin-top: 40px;
 
 } */
-
-
-
-
 
 
