@@ -529,7 +529,7 @@ header{
 
 }
 .projectpagecolor{
-    background-color:  #97633d;
+    background-color:burlywood
     
 }
 .detail{
@@ -597,6 +597,8 @@ h1,h2,p,li,div{
 }
 .con{
     padding-bottom: 5px;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
 
 }
 /* .imgpro3{
